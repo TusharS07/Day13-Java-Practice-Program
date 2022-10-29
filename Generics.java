@@ -41,7 +41,7 @@ public class Generics <T extends Comparable<T>> {
 
 
 
-        //UC3 = Given 3 String find the maximum********************
+        //UC3 = Given 3 String find the maximum*********************
         Generics compareString = new Generics("Ashwini", "Tushar", "Yash");
         System.out.println("Maximum among Three String is: " +compareString.maximum());
 
