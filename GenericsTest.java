@@ -64,7 +64,7 @@ public class GenericsTest {
     //UC3-------------------------------------Compare 3 Strings----------------------------------------
     //TC3.1 = Given Max String at
     //1st Position return the
-    //Same Number
+    //Same Number..
     @Test
     public void checkMaxStringAt1stPositionReturnSameNumber() {
         Generics campareString = new Generics("Yash","Tushar","Ashwini");
