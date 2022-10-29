@@ -34,7 +34,7 @@ public class Generics <T extends Comparable<T>> {
         System.out.println("---------------------------------------------------------------------");
 
 
-        //UC2 = Given 3 Float find the maximum**********
+        //UC2 = Given 3 Float find the maximum***********
         Generics campareFloat = new Generics(-22.2f,5.2f,12.2f);
         System.out.println("Maximum Number Out of Three Float is:- " + campareFloat.maximum());
         System.out.println("---------------------------------------------------------------------");
