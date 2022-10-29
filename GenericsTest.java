@@ -22,4 +22,13 @@ public class GenericsTest {
         Generics campareInterger = new Generics(50,200,30);
         Assert.assertEquals(200,campareInterger.maximum());
     }
+
+    //TC1.3 = Given Max Number at
+    //3rd Position return the
+    //Same Number
+    @Test
+    public void checkMaxNumberAt3rdPositionReturnSameNumber() {
+        Generics campareInterger = new Generics(50,20,300);
+        Assert.assertEquals(300,campareInterger.maximum());
+    }
 }
