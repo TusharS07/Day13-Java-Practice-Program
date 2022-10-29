@@ -51,4 +51,13 @@ public class GenericsTest {
         Generics campareFloat = new Generics(15.6f,22.2f,3.6f);
         Assert.assertEquals(22.2f,campareFloat.maximum());
     }
+
+    //TC2.3 = Given Max Number at
+    //3rd Position return the
+    //Same Number
+    @Test
+    public void checkMaxFloatNumberAt3rdPositionReturnSameNumber() {
+        Generics campareFloat = new Generics(15.6f,2.2f,33.6f);
+        Assert.assertEquals(33.6f,campareFloat.maximum());
+    }
 }
