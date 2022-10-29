@@ -60,4 +60,14 @@ public class GenericsTest {
         Generics campareFloat = new Generics(15.6f,2.2f,33.6f);
         Assert.assertEquals(33.6f,campareFloat.maximum());
     }
+
+    //UC3-------------------------------------Compare 3 Strings----------------------------------------
+    //TC3.1 = Given Max String at
+    //1st Position return the
+    //Same Number
+    @Test
+    public void checkMaxStringAt1stPositionReturnSameNumber() {
+        Generics campareString = new Generics("Yash","Tushar","Ashwini");
+        Assert.assertEquals("Yash",campareString.maximum());
+    }
 }
