@@ -31,4 +31,15 @@ public class GenericsTest {
         Generics campareInterger = new Generics(50,20,300);
         Assert.assertEquals(300,campareInterger.maximum());
     }
+
+
+    //UC2-------------------------------------Compare 3 Float----------------------------------------
+    //TC2.1 = Given Max Number at
+    //1st Position return the
+    //Same Number
+    @Test
+    public void checkMaxFloatNumberAt1stPositionReturnSameNumber() {
+        Generics campareFloat = new Generics(15.6f,2.2f,3.6f);
+        Assert.assertEquals(15.6f,campareFloat.maximum());
+    }
 }

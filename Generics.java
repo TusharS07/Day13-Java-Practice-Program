@@ -27,10 +27,16 @@ public class Generics <T extends Comparable<T>> {
 
         System.out.println("---------------------------------------------------------------------");
 
-        //UC1=Given 3 Integers find the maximum
+        //UC1=Given 3 Integers find the maximum**************
         Generics campareInterger = new Generics(50,200,500);
         System.out.println("Maximum Number Out of Three Integer is:- " + campareInterger.maximum());
 
+        System.out.println("---------------------------------------------------------------------");
+
+
+        //UC2 = Given 3 Float find the maximum**********
+        Generics campareFloat = new Generics(-22.2f,5.2f,12.2f);
+        System.out.println("Maximum Number Out of Three Float is:- " + campareFloat.maximum());
         System.out.println("---------------------------------------------------------------------");
 
     }
