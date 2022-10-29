@@ -70,4 +70,13 @@ public class GenericsTest {
         Generics campareString = new Generics("Yash","Tushar","Ashwini");
         Assert.assertEquals("Yash",campareString.maximum());
     }
+
+    //TC3.2 = Given Max String at
+    //2nd Position return the
+    //Same Number
+    @Test
+    public void checkMaxStringAt2ndPositionReturnSameNumber() {
+        Generics campareString = new Generics("Ashwini","Yash","Tushar");
+        Assert.assertEquals("Yash",campareString.maximum());
+    }
 }

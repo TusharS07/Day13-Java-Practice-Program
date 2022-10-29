@@ -46,11 +46,5 @@ public class Generics <T extends Comparable<T>> {
         System.out.println("Maximum among Three String is: " +compareString.maximum());
 
         System.out.println("---------------------------------------------------------------------");
-
-
-
     }
-
-
-
 }
